@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Alexander Grotesk';
+    src:
+        url('Resources\Fonts\agrotesk.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src:
+        url('Resources\Fonts\Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins Light';
+    src: url('Resources\Fonts\Poppins-Light.ttf') format('truetype');
+}
+        
+        
+
+body {
+    margin: 0 10%;
+    font-family: 'Poppins Light', sans-serif;
+    background-color: gray;
+    color:#050119;
+}
+
+h1 {
+    font-family: 'Alexander Grotesk', sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Alexander Grotesk';
+    font-weight: bold;
+}
+
+.container {
+    border: 2px solid #F50040;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.colorContainer {
+    width: 100%;
+}
+
+.colorPanel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.midnightBlue {
+    background-color: #050119;
+    color: #fff;
+}
+
+.white {
+    background-color: #fff;
+    color:#050119;
+}
+
+.almostPink {
+    background-color: #F50040;
+    color:#050119;
+}
+
+.darkRed {
+    background-color: #8E0120;
+    color:#fff;
+}
+
+.fontPanel {
+    width: 45%;
+    display: inline-block;
+}
+
+.fontLabel {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.alexGrotesk {
+    font-family: 'Alexander Grotesk', sans-serif;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.poppinsLight {
+    font-family: 'Poppins Light', sans-serif;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.textPanel h1 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Alexander Grotesk', sans-serif;
+}
+
+.textPanel h2 {
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Alexander Grotesk', sans-serif;
+}
+
+.textPanel p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Poppins Light', sans-serif;
+}
+
+
+
+
